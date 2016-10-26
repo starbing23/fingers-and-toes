@@ -1,3 +1,127 @@
-@charset "utf-8";
-/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input[type="number"]::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+}
+input[type="number"]::-webkit-outer-spin-button {
+     -webkit-appearance: none;
+}
+input[type="number"]{
+	-moz-appearance:textfield;
+}
+
+html, body, .container {
+	height:100%; 
+	width:100%;
+}
+.container {
+	background:url(../imgs/bg.jpg) center no-repeat; 
+	background-size:cover;
+	position:fixed;
+	top:0;
+	text-align:center;
+}
+#counter {
+	color:#FFF;
+	font-size:3rem;
+	font-weight:600;
+	height:3rem;
+	line-height:3rem;
+	margin-top:10%;
+	margin-bottom:20px;
+	text-align:center;
+}
+.word {
+	border-radius:100%;
+	height:60px;
+	line-height:60px;
+}
+.word, .button {
+	background:rgba(255,255,255,0);
+	border:2px #FFF solid;
+	box-sizing:content-box;
+	color:#FFF;
+	display:inline-block;
+	margin:0 20px;
+	padding:10px;
+	width:60px;
+}
+#countInput {
+	border:2px #FFF solid;
+	border-radius:5px;
+	height:2rem;
+	line-height:2rem;
+	margin:20px;
+	margin-top:50px;
+	padding-left:6px;
+	width:200px;
+}
+.button {
+	border-radius:5px;
+	cursor:pointer;
+}
+.button:hover {
+	background:#FFF;
+	color:#2894FF;
+}
+.hightlight {
+	background:#FFF;
+	color:#2894FF;
+}
+#erroMessage {
+	color:#F00;
+	margin-bottom:20px;
+}
+.show {
+	display:block;
+}
+.hidden {
+	display:none;
+}
 
